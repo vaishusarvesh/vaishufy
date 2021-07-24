@@ -169,3 +169,26 @@ a{
         padding-left: 0;
     }
 }
+
+/*Icons*/
+.icon
+{
+    width:40px;
+    height:40px;
+}
+
+.icon--primary
+{
+    fill: var(--color-primary);
+}
+
+.icon-container
+{
+    background: #f3f9fa;
+    border-radius: 100%;
+    height: 64px;
+    width:64px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
