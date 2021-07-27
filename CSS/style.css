@@ -418,7 +418,7 @@ a {
   bottom: 10px;
 }
 
-@media and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .quote {
     font-size: 2rem;
   }
@@ -429,5 +429,22 @@ a {
 
   .quote__organization {
     font-size: 1.6rem;
+  }
+}
+
+/*Grids*/
+.grid {
+  display: grid;
+}
+
+@media screen and (min-width: 768px) {
+  .grid--cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .grid--cols-3 {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
